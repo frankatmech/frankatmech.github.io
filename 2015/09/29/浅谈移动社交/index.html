@@ -1,0 +1,617 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="潜伏移动社交领域多年，为了证明我并不是以YP为目的，我决定在这个即将迎来一翻腥风血雨的时刻谈谈我对这个领域的一些观察。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="浅谈移动社交">
+<meta property="og:url" content="http://yoursite.com/2015/09/29/浅谈移动社交/index.html">
+<meta property="og:site_name" content="傅林的博客">
+<meta property="og:description" content="潜伏移动社交领域多年，为了证明我并不是以YP为目的，我决定在这个即将迎来一翻腥风血雨的时刻谈谈我对这个领域的一些观察。">
+<meta property="og:updated_time" content="2016-08-08T03:41:53.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="浅谈移动社交">
+<meta name="twitter:description" content="潜伏移动社交领域多年，为了证明我并不是以YP为目的，我决定在这个即将迎来一翻腥风血雨的时刻谈谈我对这个领域的一些观察。">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2015/09/29/浅谈移动社交/"/>
+
+  <title> 浅谈移动社交 | 傅林的博客 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">傅林的博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Frankatmech’s blog</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                浅谈移动社交
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-09-29T23:39:05-04:00" content="2015-09-29">
+              2015-09-29
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/互联网/" itemprop="url" rel="index">
+                    <span itemprop="name">互联网</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>　　潜伏移动社交领域多年，为了证明我并不是以YP为目的，我决定在这个即将迎来一翻腥风血雨的时刻谈谈我对这个领域的一些观察。</p>
+<a id="more"></a>
+<p>　　虽然罗胖上星期的节目才说其实对于人类来说，除了最基本的生存资料以外，并没有什么坚决不能放弃的“刚需”，对于这点我同意，但是在这里我依然愿意用“刚需”来形容人类对于社交的渴望。我相信互联网社交产品应该几乎是伴随互联网的诞生而诞生的，因为互联网就只做了一件事，就是连接嘛。所以移动互联网出现以后，很自然地PC端的社交就延伸到了移动端。</p>
+<p>　　对于移动社交的发展历史我不太了解，也没时间了解了，本文只想说说我最近感受到的一些明显的变化。这些变化大到足以让我有冲动写下这篇文章。</p>
+<p>　　目前移动社交的领头羊肯定是微信，这是毋庸置疑的。微信高居“熟人社交”这个山头的顶端，其他熟人社交APP（手机软件）在华人圈里基本没有生存空间可言（除了港台地区可能还稍微流行Line和Whatsapp；米聊、易信和来往？对不起，没用过，身边也没人用，虽然据说用户群也不小，不过还是自动归类为“没前途”）。至于“陌生人社交”这个领域就百花齐放，异彩纷呈了。</p>
+<p>　　首先谈谈“陌陌”这个第一代YP神器吧。陌陌应该是基于LBS（Location Based Service，基于位置的服务）的社交APP里面做得最出色的一个，其实它同时还主打“兴趣”，除了“附近的人”以外，“群组”也是它很重要的一个功能。可惜，它的LBS被用户过分突出，于是成了第一代YP神器。因为大家都在附近嘛，很容易就“约一约”。</p>
+<p>　　我以前也说过任何一件事物，给人的第一印象定型了以后就很难改变了。所以自从陌陌诞生以来，摆脱“YP神器”的标签一直是它努力的方向。最近半年多来陌陌多次改版，新增很多功能，例如“在线聊天室”，把昔日PC端的聊天室功能终于搬到了移动端。也许很多90后根本就没接触过“聊天室”。那是我还是初中的时候，这个东西流行过一阵子，后来就逐渐被淘汰了，陌陌的这次创新还是挺有想法的。最近陌陌还有一个重要的举动，将会留到后面的段落里讨论。</p>
+<p>　　也许陌陌的爆红使得这个领域的APP都倾向于采用叠字作为自己的名字，就像之后出现的“抱抱”、“碰碰”和“探探”。这三款软件各有特色，也还挺有意思的。碰碰没玩过，最近也没精力再玩新的APP了，就说说抱抱和探探吧。</p>
+<p>　　通过这两款APP，我想讲一个概念，就是“社交壁垒”。</p>
+<p>　　抱抱本质上应该能归类为图片社交APP，用户在上面可以发文字，然后可以自己配图也可以用软件自动帮你配的图。“抱抱”这个名字在一定程度上就为这个APP定下了基本的调性，大多数用户都是在上面抒发自己遇到的不太愉快的事情来“求抱抱”，于是这款软件里面没有“点赞”，取而代之的是“抱抱”这个名称。</p>
+<p>　　探探就是一款很纯粹的社交APP，上面不能发状态，也不能发图片和视频（虽然还是有展示面）。它做的唯一一件事情就是“配对”。用户在上面能看到附近的人（LBS几乎是标配了），然后你能看到TA 的展示面（照片、视频、资料等），然后你根据你对这个人的第一印象，选择“喜欢”或者“不喜欢”。如果对方也对你选择了喜欢的话，那么你们就配对成功了，就能展开对话，否则就不能展开对话。</p>
+<p>　　其实人与人之间的社交是存在“壁垒”的，我称之为“社交壁垒”。什么意思？就是陌生人社交里面最难的一个环节尝尝是“搭讪”，就是你向对方发出的第一句话。不仅现实生活中存在“搭讪焦虑”，虚拟世界也同样存在“搭讪焦虑”。而且前几句话通常非常重要，基本能决定你们能不能再继续进行谈话。</p>
+<p>　　我认为这两款APP都在降低社交壁垒上面做出了一些努力。探探的设定是如果有人和你配对成功了，系统会向你进行推送，而且会自动生成你们俩的对话框，于是你们就互相知道对方对自己有好感，这会在一定程度上降低搭讪焦虑。其实很多APP早就有类似功能，例如人人网推出的“暗恋”功能，还有很多APP或者婚恋网站都有的叫“谁看过我”的功能。点进你的主页起码证明对你的头像感兴趣嘛，可惜绝大部分APP都把这个作为收费会员特权。</p>
+<p>　　而抱抱做出的尝试则是系统会随机将你发的状态作为一种“漂流瓶”（漂流瓶这个概念应该是首先由腾讯推出的）发到某个异性用户那里，并且自动生成对话框，产生的效果就好像是对方被你搭讪了，但其实是系统自动发送的。这样会产生很多用户之间的对话，而且对方感觉是被你搭讪的，社交壁垒基本被打破。</p>
+<p>　　尽管社交壁垒被降低或者打破，但是陌生人社交还有一个重大的问题，就是对话的持续性问题。这世界上懂得搭讪，懂得聊天的、有趣的人太少了，如何让陌生人对话顺利地进行下去一直是一个难题。对此抱抱做出的解决方法是推出“真心话”和“大冒险”这两个功能。“真心话”功能是系统自动弹出一个问题，然后对话双方轮流回答。至于“大冒险”嘛，不好意思，没玩过。总觉得抱抱这个APP总体的调性就不适合在上面进行高频社交或者加好友。</p>
+<p>　　至于接下来要讲的这个APP纯属意外，因为我是某天无聊在微博上面看到推广的，毕竟是网易自己的产品。这个APP叫做“美聊”，貌似一开始叫“女神来了”。</p>
+<p>　　我必须说在任何时代，对于任何文化来说，美都是生产力。我接下来想讲讲被我称为“颜值变现”的概念。</p>
+<p>　　颜值为什么可以变现？因为美即生产力。“颜值”在某些场合可作为一个生产资料，用以换取资源。其实大家都司空见惯了，最显而易见的就是娱乐圈里的花瓶们和各种模特。当然我并没有否定这些人在换取资源的时候除了靠颜值以外还依靠一定的专业技能，但是也不能否认在这过程中颜值起了关键性的作用。</p>
+<p>　　在网易强大的运营能力支持下，美聊上面进驻了一堆嫩模，有各种平面的、车展的等等18到21岁之间的小模特。这些模特通过在上面发美照（其实很多就是工作照）、卖萌等等来诱发一堆土豪大哥向其送礼物。当然这些礼物都是要钱的，在美聊上面你会发现到处都充斥着金钱。各种显眼的地方让你充值会员，买礼物，甚至有部分所谓的“极品女神”是只有会员才能看到的。我从来没有接触过一款金钱味这么重的APP。</p>
+<p>　　其实这个APP的实质是一个颜值变现的移动平台。在这个平台上面买礼物是要钱的，女生收到礼物后是可以从网易那里拿到分成的。而且男性用户还可以发出“悬赏”，可以用APP里面的“金币”来要求女性用户满足自己的某个需求，例如向你卖萌等等。</p>
+<p>　　从某种意义上讲，我不认为这是一个社交APP，因为上面的女性用户目的大多不在于社交，而是赚钱。而上面的男性用户除了不断送钱，偶尔得到“女神”的一句问候之外，基本满足不到什么社交需求。</p>
+<p>　　我突然很感概，原来金钱激励已经俨然发展为移动社交领域的一大运营手法。这也是我想讲的在我眼里移动社交领域正在发生的其中一个变化，就是社交APP从交友平台变成颜值变现平台。</p>
+<p>　　其实互联网作为“普通人”颜值变现的平台已经不是什么新鲜事了，很早就出现的视频直播网站就是这样的平台。什么YY、虎牙一大堆，有时候我出于好奇也会点进去看两眼。进去以后我的三观就被刷新了：</p>
+<p>　　你会发现原来现在的网民土豪们的审美已经退化到了这种地步。那些视频直播网站的主播们个个化着大浓妆，而且就算是这样也还是带有一股浓重的来自城乡结合部的“乡土气息”。就是这样的主播们，天天在上面收着成千上万的像“鲜花”这样的来自土豪网民们的虚拟礼物。据说网络主播的收入高到足以让大部分人撞墙而死……</p>
+<p>　　不过其实原因很简单，想想会沉迷网络直播的人是什么人？这些网站只是迎合了这部分人的审美罢了。</p>
+<p>　　“美即生产力”背后的逻辑其实是“性是网络第一生产力”。所有对“美”（这里特指人的美）的向往基本上都归结于人类对于性幻想的寄托。</p>
+<p>　　其实提到视频直播是为了讲这最后的一个APP——最近因为全民老公王思聪而爆红的一个APP——17。</p>
+<p>　　很多人没有意识到移动通信领域从3G技术发展到4G技术之间所发生的质变，以为只是速度变快了而已。4G对于3G来说最大的质变在于从此人类可以在移动端流畅地观看在线视频。这个技术进步所带来的一个大趋势就是未来移动视频社交的兴起。</p>
+<p>　　17这款APP主要有两样功能，一个是图片社交，据说连UI（用户界面）都是模仿Instagram的。另外一个功能就是视频直播，你可以在上面打开摄像头把你自己的生活直播给全世界的网民们看。</p>
+<p>　　其实17主打的是当下年轻人敢于秀自己的这样一种价值观，觉得在网络上直播自己的生活没什么大不了。而且跟美聊一样，17也采取了金钱激励机制，不过它比美聊极端得多。在上面用户只需要通过发图片、直播来收集网民们的“赞”，通过点赞数来换取金钱，只要你累积收益超过3000台币（或300美金，或者基本等价的其他货币），你就会在第二个月领到钱。变态之处在于，用户给别人点赞是不需要付出任何代价的，意思就是只要你愿意，你动动手指不用付钱，这家公司就会付钱给你喜爱的用户。</p>
+<p>　　如此财大气粗的确少见。后来了解到原来创始人是鼎鼎大名的台湾艺人黄立成（前偶像团体L.A.BOYZ成员），后来得到王思聪的投资，然后由于王思聪一条晒自己17账号的微博而在内地爆红。由于创始人是黄立成，所以17这款APP带有强烈的台湾娱乐圈背景，上面的种子用户基本都是台湾演艺圈及其周边人士。没错，性质和美聊很像，也是有一大堆嫩模，也有很多香港用户。</p>
+<p>　　我必须说17这款APP做得相当不错。在这篇文章里提到的所有APP中，虽然我使用17的时间最短，但是密度却最高。重要原因之一当然是视频社交本身的天生优势——临场感很强。你跟你手机屏幕前正在直播的这个人有一种比图片社交强很多的交互感。再加上其实17的UGC（User Generated Content，用户原创内容）有很多都质量很高。</p>
+<p>　　视频直播让用户能看到真人，有时候主播们会素颜直播，在这个照片可信度几乎为0的时代，这种社交给人带来的真实感十分重要。然后你会看到很多可爱的90后们用一种很纯粹的交流的心态和用户们交流，分享自己的生活。甚至还有很多实用性的直播，例如教化妆，教护肤保养，甚至我还见过教英语的。在这个APP里我看到了移动视频社交的很多可能性。</p>
+<p>　　不过所有靠UGC而活的APP基本都逃不出一个同样的命运，那就是用户不可控。移动视频直播几乎是0门槛，意思就是说所有能安装17这个软件的用户都可以做直播，不像一般的视频直播网站，主播们应该是有门槛的。这就很恐怖了，17上面开始出现了很多跟“性”有关的元素，例如有人直播打灰机，甚至有人直播啪啪啪。一不小心，你的三观又会被刷新。</p>
+<p>　　性元素无疑是网络最具有传播性的一种东西（请看试衣间事件），再加上国民老公的加持，于是17最近是火得不得了。不过可惜，网络还是需要必要的监管，于是苹果和谷歌都同时强行将这个APP从APP Store和Google Play上面下架了，现在大家暂时无法下载这个APP了。</p>
+<p>　　17的爆红和被强行下架能说明很多问题。</p>
+<p>　　首先是科技的进步几乎必然逐步缩小人们对于隐私的界定。很多人很重视隐私，其实人们对于隐私的定义一直在变化。古代的中国对于性是很开放的，春秋时期大概在春天的时候还会大家组织去郊外野合。如果你留意一下古代的春宫图，你会发现很多达官贵人啪啪啪的时候旁边是有仆人在伺候的，中世纪的欧洲贵族也是一样。到了近代，人们对于性的隐私界定有了很大的提高，但是从17的现象看来，也有相当一部分人不觉得这是什么隐私。而且直播自己生活的年轻人也不觉得自己每天的生活有什么好隐私的，天天直播自己早晨起来洗漱，吃泡面，开车去学校。晚上回到家卸妆，自己唱歌自娱自乐等等，十分自在。</p>
+<p>　　本文暂时不深入讨论隐私边界的缩小所带来的深远影响。</p>
+<p>　　其次，我想从产品的角度来谈谈这个现象。由于人的易误性，尽管我们在推出一个APP的时候会给这个产品定性、定位、立下产品调性，但是用户的行为你是永远无法控制和预测的。一个APP从它诞生的那一刻起，它就有了自己的进化路径和生命历程，我们只能跟在它后面小心翼翼地保护它。我不敢推测性元素是不是就是17本来的原意，但是太过出格的UGC肯定不是黄立成所希望看到的，但是事情就这样发生了，谁也控制不了。就好像网易推出的另外一款图片社交软件Lofter，本意是主打时尚、摄影、有品质的生活，但是不知不觉突然变成了国内第一大二次元（动漫）UGC社区。无奈之下，创始团队也只能跟着用户走，开始经营二次元的内容。</p>
+<p>　　所以互联网时代“快速迭代”为什么是一个企业必备的身法？因为你要随时跟着用户的调性来调整你的产品，其背后的哲学原理就是索罗斯的“人的易误性”和“相关反射原则”。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/04/24/开启心智，获得新生/" rel="prev" title="开启心智，获得新生">
+                开启心智，获得新生 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="傅林" />
+          <p class="site-author-name" itemprop="name">傅林</p>
+          <p class="site-description motion-element" itemprop="description">我将在这里分享一切我对于宇宙、人生、（移动）互联网时代与编程的看法</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">傅林</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
